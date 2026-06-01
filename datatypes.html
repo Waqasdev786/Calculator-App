@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is data types</h1>
+    <script>
+        let name = "waqas";
+        console.log(typeof name);
+        console.log(name);
+
+
+        let age = 18;
+        console.log(typeof age)
+        console.log(age);
+
+        let age2 = 18.1;
+          console.log(typeof age2)
+        console.log(age2);
+
+
+        let isloggin = true;
+          console.log(typeof isloggin)
+        console.log(isloggin);
+
+
+        let city;
+          console.log(typeof city)
+        console.log(city);
+
+
+        let country = null; 
+          console.log(typeof country)
+        console.log(country);
+
+        // if else statement
+
+        let studentAge = 18;
+
+        if(age>=18){
+            console.log("you are elgibile");
+        }else{
+            console.log("you are not eligible");
+        }
+
+       
+        let totalNumbers = 40;
+
+        if(totalNumbers>=90){
+            console.log("your grade is A+");
+        }else if(totalNumbers>=80){
+            console.log("your grade is A");
+        }
+
+        else if(totalNumbers>=70){
+            console.log("your grade is B");
+        }
+        else if(totalNumbers>=60){
+            console.log("your grade is C");
+        }
+        else if(totalNumbers>=50){
+            console.log("pass");
+        }
+        else{
+            console.log("Sorry you are fail");
+        }
+
+        // non primitive data types
+
+        let array = ["apple","mangoo","grapes"];
+        
+        console.log(array[0]);
+        console.log(array[2]);
+
+        array.push("banana");
+        console.log(array);
+
+        array.unshift("lichi");
+        console.log(array);
+
+        array.pop();
+        array.shift();
+        console.log(array.length);
+
+        let arrya2 = [
+            {
+                name:"waqas",
+                age : 18,
+                city : "karachi"
+            },
+              {
+                name:"abbas",
+                age : 21,
+                city : "lahore"
+            },
+              {
+                name:"sayam",
+                age : 22,
+                city : "sindh"
+            }
+        ]
+ 
+        console.log(arrya2[2]);
+
+        // object data types
+
+        let object1 ={
+             name:"kamal",
+             skills : ["html","CSS","JS"]
+ 
+        }
+        console.log(object1.skills[0]);
+
+
+
+    </script>
+</body>
+</html>
